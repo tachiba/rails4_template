@@ -7,6 +7,7 @@ run 'rm -rf test'
 remove_file 'README.rdoc'
 
 github 'gitignore', '.gitignore'
+github '.ruby-version'
 
 github 'Gemfile'
 
