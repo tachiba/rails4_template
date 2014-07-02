@@ -3,7 +3,7 @@ def github(remote_path, local_path=remote_path)
   get "https://raw.github.com/tachiba/rails4_template/develop/#{remote_path}", local_path
 end
 
-remove_dir 'test', true
+run 'rm -rf test'
 remove_file 'README.rdoc'
 
 github 'gitignore', '.gitignore'
