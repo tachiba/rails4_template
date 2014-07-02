@@ -10,3 +10,9 @@ github 'gitignore', '.gitignore'
 github 'Gemfile'
 
 run 'bundle install'
+
+generate :'rspec:install'
+
+git :init
+git add: '. -A'
+git commit: "-a -m 'Initial Commit'"
