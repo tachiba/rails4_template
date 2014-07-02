@@ -3,6 +3,7 @@ def github(remote_path, local_path=remote_path)
   get "https://raw.github.com/tachiba/rails4_template/develop/#{remote_path}", local_path
 end
 
+remove_dir 'test'
 remove_file 'README.rdoc'
 
 github 'gitignore', '.gitignore'
@@ -14,5 +15,3 @@ run 'bundle install'
 generate :'rspec:install'
 
 git :init
-git add: '. -A'
-git commit: "-a -m 'Initial Commit'"
