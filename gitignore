@@ -1,0 +1,31 @@
+# idea ide
+.idea/*
+
+# capistrano
+public/system
+
+# temporary files
+log/*
+tmp/*
+public/assets
+*.swp
+
+# sqlite
+db/*.sqlite3
+
+/.bundle
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+
+coverage/
+
+.powder
+
+.tags
+.Gemfile.lock.tags
+
+public/uploads
+.powenv
+.sass-cache
