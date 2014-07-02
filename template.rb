@@ -8,6 +8,7 @@ remove_file 'README.rdoc'
 
 github 'gitignore', '.gitignore'
 github '.ruby-version'
+github 'config/routes.rb'
 
 github 'Gemfile'
 
