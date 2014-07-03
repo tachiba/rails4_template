@@ -7,7 +7,9 @@ run 'rm -rf test'
 remove_file 'README.rdoc'
 
 github 'gitignore', '.gitignore'
-github '.ruby-version'
+github 'ruby-version', '.ruby-version'
+github 'powenv', '.powenv'
+github 'powrc', '.powrc'
 github 'config/routes.rb'
 
 github 'Gemfile'
