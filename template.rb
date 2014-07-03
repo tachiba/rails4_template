@@ -10,7 +10,9 @@ github 'gitignore', '.gitignore'
 github 'ruby-version', '.ruby-version'
 github 'powenv', '.powenv'
 github 'powrc', '.powrc'
+
 github 'config/routes.rb'
+github 'config/spring.rb'
 
 github 'Gemfile'
 
